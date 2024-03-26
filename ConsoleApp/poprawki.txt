@@ -1,0 +1,12 @@
+1) Program.cs
+- usunięcie niepotrzebnych importów
+- błędna nazwa pliku csv (dataa.csv -> data.csv)
+2) DataReader.cs
+- usunięcie niepotrzebnych importów
+- zmiana nazwy niektórych zmiennych na camelCase 
+- dispose stream readera
+- zamienione for loop na foreach dla lepszej optymalizacji
+- usunięcie zbędnego type castingu
+- naprawienie błędu z index out of range w iteracji importedObjects
+- połączenie podwójnych wyrażeń if w pojedyńcze
+- error handling dla pętli iterującej po importedObjects

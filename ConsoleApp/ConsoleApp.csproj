@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="poprawki.txt" />
     <None Include="App.config" />
     <Content Include="data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
